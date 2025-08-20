@@ -28,8 +28,8 @@ app.ws('/twilio-media', (ws, req) => {
   // Connect to ElevenLabs Realtime API
   const elevenWs = new WebSocket("wss://api.elevenlabs.io/v1/stream", {
     headers: {
-      "Authorization": "Bearer YOUR_ELEVENLABS_API_KEY",
-      "Agent-ID": "YOUR_AGENT_ID"
+      "Authorization": "Bearer sk_cdc2443ad8bfd9d901370bce18f4cc98298c7b369b69dc1e",
+      "Agent-ID": "agent_3701k20ewg4re3zay0c9m3s6hrh7"
     }
   });
 
